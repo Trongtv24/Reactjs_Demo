@@ -1,6 +1,6 @@
 //component = html + css + js
 
-import './styles.css'
+import './style.css'
 const MyComponent = () => {
     // const hoidanit = "eric 1"; //string
     // const hoidanit = 25; //number
