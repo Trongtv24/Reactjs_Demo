@@ -5,10 +5,10 @@ const TodoNew = (props) => {
     //useState hook (getter/setter)
     // const valueInput = "eric";
     const [valueInput, setValueInput] = useState("eric")
-
+    const { addNewTodo } = props;
     // addNewTodo("eric") //fire
     const handleClick = () => {
-        console.log(">>> check valueInput: ", valueInput)
+        addNewTodo(valueInput)
     }
     const handleOnChange = (name) => {
         setValueInput(name)
